@@ -26,6 +26,9 @@ int main(void){
 		else if (hexletter >= 'A' && hexletter <= 'F') {
 			value = hexletter - 'A' + 10;
 		}
+		else if (hexletter >= 'a' && hexletter <= 'g') {
+			value = hexletter - 'a' + 32;
+		}
 		// if input contains invalid hex digit
 		// printf("Error: Invalid Hexadecimal\n");
 		else {
@@ -41,4 +44,5 @@ int main(void){
 	return 0;
 
 }
+
 
