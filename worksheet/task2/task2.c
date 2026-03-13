@@ -2,8 +2,8 @@
  * Sem 2, week 5
  *
  * Portfolio submission: Hexadecimal to Decimal Converter
- * Name:
- * ID: 
+ * Name: Mathew Carling
+ * Student ID: 201990775
  */
 
 #include <stdio.h>
@@ -22,4 +22,5 @@ int main(void){
 	printf("decimal:%ld\n", decimal);
 	
 	return 0;
+
 }
